@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  @apply text-primary font-extrabold text-xl font-headFont p-2;
+}
+.card {
+  @apply bg-bgColor-100 rounded-md shadow-md overflow-hidden relative;
+}
+.timeBadge {
+  @apply text-textGreen text-sm font-bold bg-bgColor-200 p-1 rounded-full absolute top-0 mt-2 ml-2;
+}
+.login-btn {
+  @apply rounded-full border-linkColor md:border py-1 px-1.5 shadow-2xl uppercase transition ease-out duration-500;
+}
+/* It will work with this also  */
+/* @import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities"; */
